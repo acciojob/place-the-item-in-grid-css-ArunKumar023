@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+
+/* Create a 200px 2x2 grid with repeat function */
+.holder {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(2, 100px);
+  grid-gap: 10px; /* Add some gap between grid items */
+}
+
+/* Style the items inside the grid */
+.item {
+  background-color: #ddd;
+  border: 1px solid #999;
+  padding: 10px;
+}
